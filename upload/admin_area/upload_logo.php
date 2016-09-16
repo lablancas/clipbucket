@@ -10,7 +10,8 @@ if(!defined('SUB_PAGE')){
 	define('SUB_PAGE', 'Update Logo');
 }
 
-$source = BASEURL.'/styles/cb_28/theme/images/logo.png';
+$template_dir = $Cbucket->configs['template_dir'];
+$source = BASEURL.'/styles/'.$template_dir.'/theme/images/logo.png';
 
 // Upload and Rename File
 

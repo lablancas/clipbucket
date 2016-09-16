@@ -5649,7 +5649,8 @@
 	
 	function upload_logo() {
 
-	$target_dir = STYLES_DIR."/cb_28/theme/images/";	
+	$template_dir = $Cbucket->configs['template_dir'];
+	$target_dir = STYLES_DIR."/".$template_dir."/theme/images/";	
 	$filename = $_FILES["fileToUpload"]["name"]; 
 	$file_basename = basename($filename,".png"); 
 	$file_ext = pathinfo($filename, PATHINFO_EXTENSION);
