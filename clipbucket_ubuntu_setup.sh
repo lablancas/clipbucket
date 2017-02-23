@@ -88,7 +88,7 @@ else
     cp -R "Ultimate/Social Connect" "clipbucket/upload/plugins/Social Connect"
     cp -R "Ultimate/Video Head Control" "clipbucket/upload/plugins/Video Head Control"
     cp -R "Ultimate/Website Branding" "clipbucket/upload/plugins/Website Branding"
-    cp -R "Ultimate/YouClip" "lipbucket/upload/plugins/YouClip"
+    cp -R "Ultimate/YouClip" "clipbucket/upload/plugins/YouClip"
   
     cp -R Ultimate/LiveMotion Ultimate/WeTube Ultimate/Zulu clipbucket/upload/styles/
   
