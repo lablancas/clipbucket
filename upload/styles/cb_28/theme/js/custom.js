@@ -7,10 +7,10 @@ function headerFooter()
 	cont_height = $("#container").height();
 	headerheight = $("#header").outerHeight();
 	footerheight = $("#footer").outerHeight();
-	console.log('headerheight=>'+headerheight+',footerheight=>'+footerheight);
-	console.log("cont_height"+cont_height)
+	/*console.log('headerheight=>'+headerheight+',footerheight=>'+footerheight);
+	console.log("cont_height"+cont_height)*/
 	cont_height_new = cont_height - (headerheight + footerheight);
-	console.log("cont_height_new"+cont_height_new)
+	/*console.log("cont_height_new"+cont_height_new)*/
 	$("#container").css('padding-top',headerheight+'px');
 	$("#container").css('padding-bottom',footerheight+'px');
 
@@ -299,7 +299,7 @@ function homePageVideos(qlist_items) {
 				if (data.length < 10) {
 					$(main_object).remove();
 					if (loadHit == 1) {
-						alert(loadMode);
+						//alert(loadMode);
 						if (loadMode == 'featured') {
 							$('#featured_load_more').hide();
 							$('#featured_pre').hide();
